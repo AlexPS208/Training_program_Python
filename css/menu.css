@@ -1,0 +1,76 @@
+body {
+    background-image: url('../textures/menu/backround.png');
+}
+
+#logo {
+	width: 240px;
+	height: 75px;
+	margin: 4% 5% 0 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 6%;
+	filter: none;
+}
+
+#logo>a>img {
+	width: 240px;
+	height: 75px;
+}
+
+.content {
+	margin: 0 10%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	filter: none;
+}
+
+.content>.card1 {
+	text-align: center;
+	width: 22%;
+	border-radius: 43px;
+	background-color: #ffffff;
+	
+	padding: 4.235% 1.048%;
+	margin: 0 4.071% 5.753% 4.071%;
+
+	font-size: 40px;
+	font-family: 'Roboto Flex', sans-serif;
+	color: #000;
+	text-decoration: none;
+
+	/* filter:invert(0.8); */
+}
+
+.content>.card2 {
+	text-align: center;
+	width: 22%;
+	border-radius: 43px;
+	background-color: #ffffff;
+	
+	padding: 4.399% 1.048%;
+	margin: 0 4.071% 6.303% 4.071%;
+
+	font-size: 36px;
+	font-family: 'Roboto Flex', sans-serif;
+	color: #000;
+	text-decoration: none;
+
+	/* filter:invert(0.8); */
+}
+
+#return {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2.9417%;
+}
+
+#return>a>img {
+	width: 100%;
+	height: auto;
+}
+
