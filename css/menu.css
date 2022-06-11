@@ -1,11 +1,15 @@
 body {
     background-image: url('../textures/menu/backround.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+
+/* --------------------------------- */
 
 #logo {
 	width: 240px;
 	height: 75px;
-	margin: 4% 5% 0 10%;
+	margin: 6.776% 5% 0 13.866%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -17,6 +21,8 @@ body {
 	width: 240px;
 	height: 75px;
 }
+
+/* --------------------------------- */
 
 .content {
 	margin: 0 10%;
@@ -61,6 +67,8 @@ body {
 
 	/* filter:invert(0.8); */
 }
+
+/* --------------------------------- */
 
 #return {
 	display: flex;

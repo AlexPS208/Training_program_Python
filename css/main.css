@@ -8,6 +8,8 @@ body {
 	position: absolute;
 	background-image: url('../textures/main/glass.JPG');
 	mix-blend-mode: screen;
+	background-repeat: no-repeat;
+	background-size: cover;
 	height: 63%;
 	width: 100%;
 	margin-top: 36%;
@@ -19,7 +21,7 @@ header {
 	display: flex;
 	flex-wrap: nowrap;
 	align-items: flex-start;
-	margin: 2.9415% 7.353% 8.62% 10%;
+	margin: 6.776% 13.991% 8.62% 13.991%;
 }
 
 .leftside_header {
@@ -123,7 +125,7 @@ label:active:after {
 	text-align: center;
 
 	margin-top: 15%;
-	margin-right: 32%;
+	margin-right: 18%;
 }
 
 
@@ -163,8 +165,6 @@ main {
 	display: flex;
 	justify-content: center;
 }
-
-
 
 /*========================================*/
 
