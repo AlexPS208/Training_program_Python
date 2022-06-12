@@ -189,7 +189,7 @@ hr {
 footer {
 	padding: 4.885% 0 0 0;
 }
-/* 4.6855 */
+
 footer>.info_footer {
 	display: flex;
 	flex-direction: column;
@@ -224,4 +224,8 @@ footer>.name_footer>span {
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 23px;
+}
+
+footer>.info_footer>span>a:hover {
+    text-decoration: solid 1px underline;
 }
