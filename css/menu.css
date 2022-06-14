@@ -1,5 +1,5 @@
 body {
-    background-image: url('../textures/menu/backround.png');
+	background-image: url('../textures/menu/backround.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -39,7 +39,7 @@ body {
 	width: 22%;
 	border-radius: 43px;
 	background-color: #ffffff;
-	
+
 	padding: 4.235% 1.048%;
 	margin: 0 4.071% 5.753% 4.071%;
 
@@ -56,7 +56,7 @@ body {
 	width: 22%;
 	border-radius: 43px;
 	background-color: #ffffff;
-	
+
 	padding: 4.399% 1.048%;
 	margin: 0 4.071% 6.303% 4.071%;
 
@@ -82,3 +82,53 @@ body {
 	height: auto;
 }
 
+/* --------------------------------- */
+
+hr {
+	border: 1px solid #000;
+	margin-top: 14.627%;
+}
+
+footer {
+	padding: 4.885% 0 0 0;
+}
+
+footer>.info_footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2.9415%;
+}
+
+footer>.info_footer>span {
+	margin-bottom: 1.103%;
+	font-family: 'Roboto Flex', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 23px;
+}
+
+footer>.info_footer>span>a {
+	text-decoration: none;
+	color: #000000;
+}
+
+footer>.name_footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+footer>.name_footer>span {
+	margin-bottom: 1.156%;
+	font-family: 'Roboto Flex', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 23px;
+}
+
+footer>.info_footer>span>a:hover {
+	text-decoration: solid 1px underline;
+}
