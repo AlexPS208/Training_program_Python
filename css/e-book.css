@@ -34,17 +34,8 @@ body {
 
 main>div>iframe {
     width: 68.86%;
-    height: 2073px;
+    height: 1473px;
     margin: 5% 15.57% 0 15.57%;
-}
-
-.link {
-    margin-top: 5%;
-    text-align: center;
-}
-
-.link>a>img {
-    padding: 23.5px 116px;
 }
 
 /* --------------------------------- */
