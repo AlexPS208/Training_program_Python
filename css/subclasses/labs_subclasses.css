@@ -1,0 +1,147 @@
+.dropdown-menu>li>a>div:hover,
+.dropdown-menu>li>a>div:active {
+    width: 195px;
+    height: 67.25px;
+}
+
+#lr1:hover {
+    background-image: url(../../textures/labs/hover/lr1.png);
+    background-size: contain;
+}
+
+#lr2:hover {
+    background-image: url(../../textures/labs/hover/lr2.png);
+    background-size: contain;
+}
+
+#lr3:hover {
+    background-image: url(../../textures/labs/hover/lr3.png);
+    background-size: contain;
+}
+
+#lr4:hover {
+    background-image: url(../../textures/labs/hover/lr4.png);
+    background-size: contain;
+}
+
+#lr5:hover {
+    background-image: url(../../textures/labs/hover/lr5.png);
+    background-size: contain;
+}
+
+#lr6:hover {
+    background-image: url(../../textures/labs/hover/lr6.png);
+    background-size: contain;
+}
+
+#lr7:hover {
+    background-image: url(../../textures/labs/hover/lr7.png);
+    background-size: contain;
+}
+
+#lr8:hover {
+    background-image: url(../../textures/labs/hover/lr8.png);
+    background-size: contain;
+}
+
+#lr9:hover {
+    background-image: url(../../textures/labs/hover/lr9.png);
+    background-size: contain;
+}
+
+#lr10:hover {
+    background-image: url(../../textures/labs/hover/lr10.png);
+    background-size: contain;
+}
+
+#lr11:hover {
+    background-image: url(../../textures/labs/hover/lr11.png);
+    background-size: contain;
+}
+
+#lr12:hover {
+    background-image: url(../../textures/labs/hover/lr12.png);
+    background-size: contain;
+}
+
+#lr13:hover {
+    background-image: url(../../textures/labs/hover/lr13.png);
+    background-size: contain;
+}
+
+#lr14:hover {
+    background-image: url(../../textures/labs/hover/lr14.png);
+    background-size: contain;
+}
+
+/* ---------------------------------------------------------- */
+
+#lr1:active {
+    background-image: url(../../textures/labs/active/lr1.png);
+    background-size: contain;
+}
+
+#lr2:active {
+    background-image: url(../../textures/labs/active/lr2.png);
+    background-size: contain;
+}
+
+#lr3:active {
+    background-image: url(../../textures/labs/active/lr3.png);
+    background-size: contain;
+}
+
+#lr4:active {
+    background-image: url(../../textures/labs/active/lr4.png);
+    background-size: contain;
+}
+
+#lr5:active {
+    background-image: url(../../textures/labs/active/lr5.png);
+    background-size: contain;
+}
+
+#lr6:active {
+    background-image: url(../../textures/labs/active/lr6.png);
+    background-size: contain;
+}
+
+#lr7:active {
+    background-image: url(../../textures/labs/active/lr7.png);
+    background-size: contain;
+}
+
+#lr8:active {
+    background-image: url(../../textures/labs/active/lr8.png);
+    background-size: contain;
+}
+
+#lr9:active {
+    background-image: url(../../textures/labs/active/lr9.png);
+    background-size: contain;
+}
+
+#lr10:active {
+    background-image: url(../../textures/labs/active/lr10.png);
+    background-size: contain;
+}
+
+#lr11:active {
+    background-image: url(../../textures/labs/active/lr11.png);
+    background-size: contain;
+}
+
+#lr12:active {
+    background-image: url(../../textures/labs/active/lr12.png);
+    background-size: contain;
+}
+
+#lr13:active {
+    background-image: url(../../textures/labs/active/lr13.png);
+    background-size: contain;
+}
+
+#lr14:active {
+    background-image: url(../../textures/labs/active/lr14.png);
+    background-size: contain;
+}
