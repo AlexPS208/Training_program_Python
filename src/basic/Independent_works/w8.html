@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Самостійна робота</title>
+
+    <link rel="shortcut icon" href="../../../textures/python.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../../css/ind_works.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href="../../../main.html"><img src="../../../textures/Logo.svg" alt="Logo"></a>
+        </div>
+
+        <div class="navigation">
+            <ul class="nav">
+                <li class="button-dropdown">
+                    <a href="javascript:void(0)" class="dropdown-toggle">
+                        <div id="navMenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="w1.html">
+                                <div id="sr1"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="w2.html">
+                                <div id="sr2"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="w3.html">
+                                <div id="sr3"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="w4.html">
+                                <div id="sr4"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="w5.html">
+                                <div id="sr5"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="w6.html">
+                                <div id="sr6"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="w7.html">
+                                <div id="sr7"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div id="sr8"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="w9.html">
+                                <div id="sr9"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h4>Об’єктно орієнтоване програмування</h4>
+        <span>
+            1) Реалізувати клас будь-якого предмета та записати деякі його властивості в якості полів. Зробити пару
+            функцій, що будуть змінювати поля об’єктів.
+        </span>
+        <span>
+            2) Розробити додатковий клас чисел з математичними інтерфейсами до них. <br>]
+            Примітка: для виконання завдання потрібно вивчити о методах перегрузки операторів __add__, __radd__,
+            __sub__, __mul__, __pow__ та інш.
+        </span>
+        <span>
+            3) Євгенія створила клас KgToPounds з параметром kg, куди передається певна кількість кілограмів, а за
+            допомогою методу to_pounds() вони переводяться в фунти. Щоб закрити доступ до змінної kg, вона реалізувала
+            методи set_kg() - для завдання нового значення кілограмів, get_kg() - для виведення поточного значення кг.
+            Через це виникла незручність: нам потрібно тепер використовувати ці 2 методи для завдання та виведення
+            значень. Допоможіть їй переробити клас із використанням функції property() та властивостей-декораторів. Код
+            наведено нижче.
+            <pre>
+class KgToPounds:
+
+    def __init__(self, kg):
+        self.__kg = kg
+
+    def to_pounds(self):
+        return self.__kg * 2.205
+
+    def set_kg(self, new_kg):
+        if isinstance(new_kg, (int, float)):
+            self.__kg = new_kg
+        else:
+            raise ValueError('Кілограми надаються тільки числами')
+
+    def get_kg(self):
+        return self.__kg
+            </pre>
+        </span>
+
+        <h5>Завдання на Codewars</h5>
+        <span>1)
+            <a href="https://www.codewars.com/kata/53f0f358b9cb376eca001079/train/python" target="_blank">
+                https://www.codewars.com/kata/53f0f358b9cb376eca001079/train/python
+            </a>
+        </span>
+        <span>2)
+            <a href="https://www.codewars.com/kata/5264603df227072e6500006d/train/python" target="_blank">
+                https://www.codewars.com/kata/5264603df227072e6500006d/train/python
+            </a>
+        </span>
+        <span> 3)
+            <a href="https://www.codewars.com/kata/563089b9b7be03472d00002b/train/python" target="_blank">
+                https://www.codewars.com/kata/563089b9b7be03472d00002b/train/python
+            </a>
+        </span>
+        <span>4)
+            <a href="https://www.codewars.com/kata/56311e4fdd811616810000ce/train/python" target="_blank">
+                https://www.codewars.com/kata/56311e4fdd811616810000ce/train/python
+            </a>
+        </span>
+        <span>5)
+            <a href="https://www.codewars.com/kata/57a93f93bb9944516d0000c1/train/python" target="_blank">
+                https://www.codewars.com/kata/57a93f93bb9944516d0000c1/train/python
+            </a>
+        </span>
+
+        <a href="../../menu.html" class="button"></a>
+    </main>
+
+    <hr>
+
+    <footer>
+        <div class="info_footer">
+            <span><a href="https://www.kre.dp.ua" target="_blank">https://www.kre.dp.ua</a></span>
+            <span>e-mail: <a
+                    href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCGlndtbWQmzxLbHbjxDHCXlqZCFDRKcWvWBKkrQhTmnbcTKWWRtGpNKLKstWGzgtZRxdq"
+                    target="_blank">
+                    drpbk.info@gmail.com</a></span>
+            <span>Адреса:<a
+                    href="https://www.google.com.ua/maps/place/%D1%83%D0%BB.+%D0%A8%D0%BC%D0%B8%D0%B4%D1%82%D0%B0,+18,+%D0%94%D0%BD%D0%B5%D0%BF%D1%80,+%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+49000/@48.4655745,35.017604,17z/data=!3m1!4b1!4m5!3m4!1s0x40dbe2fdf275d135:0x1e46c0af5f0d1f28!8m2!3d48.4655745!4d35.0197927?hl=ru"
+                    target="_blank">
+                    49006 Україна м.Дніпро вул. Шмідта 18</a></span>
+        </div>
+        <div class="name_footer">
+            <span>© 2022 Коледж радіоелектроніки.</span>
+        </div>
+    </footer>
+</body>
+
+<script src="../../../js/hum_menu_anumation.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="../../../js/dropdown.js"></script>
+
+</html>
