@@ -1,0 +1,97 @@
+.dropdown-menu>li>a>div:hover,
+.dropdown-menu>li>a>div:active {
+    box-shadow: 5px 5px 5px #3300862f;
+    border-radius: 43px;
+}
+
+#sr1:hover {
+    background-image: url(../../textures/ind_works/hover/sr1.png);
+    background-size: contain;
+}
+
+#sr2:hover {
+    background-image: url(../../textures/ind_works/hover/sr2.png);
+    background-size: contain;
+}
+
+#sr3:hover {
+    background-image: url(../../textures/ind_works/hover/sr3.png);
+    background-size: contain;
+}
+
+#sr4:hover {
+    background-image: url(../../textures/ind_works/hover/sr4.png);
+    background-size: contain;
+}
+
+#sr5:hover {
+    background-image: url(../../textures/ind_works/hover/sr5.png);
+    background-size: contain;
+}
+
+#sr6:hover {
+    background-image: url(../../textures/ind_works/hover/sr6.png);
+    background-size: contain;
+}
+
+#sr7:hover {
+    background-image: url(../../textures/ind_works/hover/sr7.png);
+    background-size: contain;
+}
+
+#sr8:hover {
+    background-image: url(../../textures/ind_works/hover/sr8.png);
+    background-size: contain;
+}
+
+#sr9:hover {
+    background-image: url(../../textures/ind_works/hover/sr9.png);
+    background-size: contain;
+}
+
+/*-----------------------------------------------------*/
+
+#sr1:active {
+    background-image: url(../../textures/ind_works/active/sr1.png);
+    background-size: contain;
+}
+
+#sr2:active {
+    background-image: url(../../textures/ind_works/active/sr2.png);
+    background-size: contain;
+}
+
+#sr3:active {
+    background-image: url(../../textures/ind_works/active/sr3.png);
+    background-size: contain;
+}
+
+#sr4:active {
+    background-image: url(../../textures/ind_works/active/sr4.png);
+    background-size: contain;
+}
+
+#sr5:active {
+    background-image: url(../../textures/ind_works/active/sr5.png);
+    background-size: contain;
+}
+
+#sr6:active {
+    background-image: url(../../textures/ind_works/active/sr6.png);
+    background-size: contain;
+}
+
+#sr7:active {
+    background-image: url(../../textures/ind_works/active/sr7.png);
+    background-size: contain;
+}
+
+#sr8:active {
+    background-image: url(../../textures/ind_works/active/sr8.png);
+    background-size: contain;
+}
+
+#sr9:active {
+    background-image: url(../../textures/ind_works/active/sr9.png);
+    background-size: contain;
+}
