@@ -1,0 +1,114 @@
+body {
+    background-color: #D1C6EB;
+}
+
+/* --------------------------------- */
+
+#logo {
+    width: 240px;
+    height: 75px;
+    margin: 6.776% 5% 0 13.866%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6%;
+    filter: none;
+}
+
+#logo>a>img {
+    width: 240px;
+    height: 75px;
+}
+
+.nav {
+    margin: -3.113% 15.56% 0 15.56%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.download {
+    display: block;
+    width: 207px;
+    height: 64px;
+    background-image: url('../textures/examples/download_primery.png');
+    background-size: contain;
+}
+
+.download:hover {
+    width: 195px;
+    background-image: url('../textures/examples/download_hover.png');
+}
+
+.download:active {
+    height: 60.1563px;
+    background-image: url('../textures/examples/download_active.png');
+}
+
+.button {
+    display: block;
+    width: 228px;
+    height: 64px;
+    background-image: url('../textures/back_ico.png');
+    background-size: contain;
+}
+
+/* --------------------------------- */
+
+main>iframe {
+    width: 68.86%;
+    height: 1473px;
+    margin: 5% 15.57% 0 15.57%;
+}
+
+/* --------------------------------- */
+
+hr {
+    border: 1px solid #000;
+    margin-top: 4.627%;
+}
+
+footer {
+    padding: 4.885% 0 0 0;
+}
+
+footer>.info_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.9415%;
+}
+
+footer>.info_footer>span {
+    margin-bottom: 1.103%;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+footer>.info_footer>span>a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer>.name_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>.name_footer>span {
+    margin-bottom: 1.156%;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+footer>.info_footer>span>a:hover {
+    text-decoration: solid 1px underline;
+}

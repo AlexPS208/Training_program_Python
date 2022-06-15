@@ -1,5 +1,7 @@
 .dropdown-menu>li>a>div:hover,
 .dropdown-menu>li>a>div:active {
+    width: 194px;
+    height: 61px;
     box-shadow: 5px 5px 5px #3300862f;
     border-radius: 43px;
 }
