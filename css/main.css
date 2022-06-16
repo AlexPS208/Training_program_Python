@@ -190,30 +190,24 @@ nav>.nav_dop>* {
 #health,
 #plusz {
 	display: block;
-	height: 200px;
+	height: 136px;
 
 	background-repeat: no-repeat;
 	background-size: contain;
 }
 
 #tps {
-	transition: all .2s ease-in-out;
-	margin: 0 22.388px;
-	width: 155.224px;
+	width: 200px;
 	background-image: url('../textures/main/tps_ico.png');
 }
 
 #health {
-	transition: all .2s ease-in-out;
-	margin: 0 -8.4px;
-	width: 216.8px;
+	width: 200px;
 	background-image: url('../textures/main/health_ico.png');
 }
 
 #plusz {
-	transition: all .2s ease-in-out;
-	margin: 0 -38.136px;
-	width: 276.272px;
+	width: 200px;
 	background-image: url('../textures/main/Plushka_ico.png');
 }
 
@@ -228,8 +222,8 @@ nav>.nav_menu>* {
 
 #menu {
 	display: block;
-	width: 295.66px;
-	height: 100px;
+	width: 300px;
+	height: 88px;
 
 	background-image: url('../textures/main/menu_ico.png');
 	background-size: contain;

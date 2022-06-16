@@ -25,7 +25,7 @@ body {
 /* --------------------------------- */
 
 .navigation {
-    margin: -3% 0 0 13%;
+    margin: -13% 0 0 13%;
 }
 
 #navMenu {
@@ -76,15 +76,243 @@ body {
 
 /* --------------------------------- */
 
-.button {
-    margin: -7.113% 12.513% 7% 73.874%;
-    display: block;
-    background-image: url('../textures/back_ico.png');
-    background-size: contain;
-    width: 227px;
-    height: 64px;
+.buts {
+    margin: -7.113% 12.513% 7% 61%;
+    display: flex;
+    flex-direction: row;
 }
 
+.example_button {
+    margin: 0 5% 0 0;
+    display: block;
+    width: 227px;
+    height: 64px;
+
+    background-image: url('../textures/conpect/example.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.example_button:hover {
+    background-image: url('../textures/conpect/example_hover.png');
+}
+
+.example_button:active {
+    background-image: url('../textures/conpect/example_active.png');
+}
+
+
+.button {
+    display: block;
+    width: 227px;
+    height: 64px;
+
+    background-image: url('../textures/back_ico.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.button:hover {
+    background-image: url('../textures/back_hover.png');
+}
+
+.button:active {
+    background-image: url('../textures/back_active.png');
+}
+
+/* --------------------------------- */
+/* --------------------------------- */
+
+.close {
+    position: absolute;
+    width: 3%;
+    height: 6%;
+    left: 97%;
+    top: 0;
+
+    background-image: url(../textures/conpect/close.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.overlapse1 {
+    position: absolute;
+    width: 42%;
+    height: 39%;
+    top: 30%;
+    left: 17%;
+    border-radius: 15px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        ". . ."
+        ". . ."
+        ". . .";
+
+    background-color: #f4dcf2d2;
+    backdrop-filter: blur(6px);
+}
+
+.overlapse1>.number,
+.overlapse2>.number,
+.overlapse3>.number {
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10%;
+}
+
+#e1 {
+    background-image: url('../textures/examples/primary/e1.png');
+}
+
+#e2 {
+    background-image: url('../textures/examples/primary/e2.png');
+}
+
+#e3 {
+    background-image: url('../textures/examples/primary/e3.png');
+}
+
+#e4 {
+    background-image: url('../textures/examples/primary/e4.png');
+}
+
+#e5 {
+    background-image: url('../textures/examples/primary/e5.png');
+}
+
+#e6 {
+    background-image: url('../textures/examples/primary/e6.png');
+}
+
+#e7 {
+    background-image: url('../textures/examples/primary/e7.png');
+}
+
+
+.overlapse2 {
+    position: absolute;
+    width: 42%;
+    height: 39%;
+    top: 30%;
+    left: 17%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        ". . ."
+        ". . ."
+        ". . .";
+
+    background-color: #f4dcf2d2;
+    backdrop-filter: blur(6px);
+}
+
+#e8 {
+    background-image: url('../textures/examples/primary/e8.png');
+}
+
+#e9 {
+    background-image: url('../textures/examples/primary/e9.png');
+}
+
+#e10 {
+    background-image: url('../textures/examples/primary/e10.png');
+}
+
+#e11 {
+    background-image: url('../textures/examples/primary/e11.png');
+}
+
+#e12 {
+    background-image: url('../textures/examples/primary/e12.png');
+}
+
+#e13 {
+    background-image: url('../textures/examples/primary/e13.png');
+}
+
+#e14 {
+    background-image: url('../textures/examples/primary/e14.png');
+}
+
+.overlapse3 {
+    position: absolute;
+    width: 42%;
+    height: 39%;
+    top: 30%;
+    left: 17%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        ". . ."
+        ". . ."
+        ". . .";
+
+    background-color: #f4dcf2d2;
+    backdrop-filter: blur(6px);
+}
+
+#e15 {
+    background-image: url('../textures/examples/primary/e15.png');
+}
+
+#e16 {
+    background-image: url('../textures/examples/primary/e16.png');
+}
+
+#e17 {
+    background-image: url('../textures/examples/primary/e17.png');
+}
+
+#e18 {
+    background-image: url('../textures/examples/primary/e18.png');
+}
+
+#e19 {
+    background-image: url('../textures/examples/primary/e19.png');
+}
+
+#e20 {
+    background-image: url('../textures/examples/primary/e20.png');
+}
+
+#e21 {
+    background-image: url('../textures/examples/primary/e21.png');
+}
+
+
+.right {
+    background-image: url('../textures/conpect/arrow_right.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 17% 80% 23% 10%;
+}
+
+.left {
+    background-image: url('../textures/conpect/arrow_left.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 17% 10% 23% 80%;
+}
+
+.overlapse1,
+.overlapse2,
+.overlapse3 {
+    display: none;
+}
+
+
+/* --------------------------------- */
 /* --------------------------------- */
 
 .nav li {
@@ -275,7 +503,7 @@ body {
 main>iframe {
     width: 68.86%;
     height: 1473px;
-    margin: 5% 15.57% 0 15.57%;
+    margin: 3% 15.57% 0 15.57%;
 }
 
 .frame2,
@@ -298,7 +526,7 @@ main>iframe {
 .frame19,
 .frame20,
 .frame21 {
-    display:none;
+    display: none;
 }
 
 

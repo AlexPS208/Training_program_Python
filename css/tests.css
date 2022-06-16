@@ -1,0 +1,45 @@
+body {
+    background-color: #D1C6EB;
+}
+
+/* --------------------------------- */
+
+#logo {
+    width: 240px;
+    height: 75px;
+    margin: 6.776% 5% 0 13.866%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6%;
+    filter: none;
+}
+
+#logo>a>img {
+    width: 240px;
+    height: 75px;
+}
+
+/* --------------------------------- */
+
+#button {
+    margin: -5.113% 12.513% 0 73.874%;
+
+    display: block;
+    width: 200px;
+    height: 64px;
+
+    background-image: url('../textures/back_ico.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#button:hover {
+    background-image: url('../textures/back_hover.png');
+}
+
+#button:active {
+    background-image: url('../textures/back_active.png');
+}
+
+/* --------------------------------- */

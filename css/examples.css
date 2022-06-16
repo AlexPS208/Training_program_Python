@@ -52,6 +52,15 @@ body {
     height: 64px;
     background-image: url('../textures/back_ico.png');
     background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.button:hover {
+    background-image: url('../textures/back_hover.png');
+}
+
+.button:active {
+    background-image: url('../textures/back_active.png');
 }
 
 /* --------------------------------- */
