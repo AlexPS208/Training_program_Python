@@ -70,23 +70,36 @@ body {
 
 /* --------------------------------- */
 
-#return {
+#ret {
 	display: flex;
-	align-items: center;
 	justify-content: center;
-	margin-top: 2.9417%;
 }
 
-#return>a>img {
-	width: 100%;
-	height: auto;
+#return {
+	display: block;
+	margin-top: 2.9417%;
+
+	width: 232px;
+	height: 67px;
+
+	background-image: url('../textures/main_ico.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#return:hover {
+	background-image: url('../textures/main_hover.png');
+}
+
+#return:active {
+	background-image: url('../textures/main_active.png');
 }
 
 /* --------------------------------- */
 
 hr {
 	border: 1px solid #000;
-	margin-top: 14.627%;
+	margin-top: 7.627%;
 }
 
 footer {

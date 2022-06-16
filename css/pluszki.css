@@ -6,6 +6,11 @@ body {
 
 /* --------------------------------- */
 
+header {
+    display: flex;
+    flex-direction: row;
+}
+
 #logo {
     width: 240px;
     height: 75px;
@@ -24,12 +29,24 @@ body {
 
 /* --------------------------------- */
 
-.button {
-    margin: 1.113% 12.513% 0 73.874%;
+#return {
+    display: block;
+    width: 162.746px;
+	height: 47px;
+
+    background-image: url('../textures/main_ico.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    margin: 14% 0 0 44.5%;
 }
 
-.button>a>img {
-    width: 59.1721%;
+#return:hover {
+    background-image: url('../textures/main_hover.png');
+}
+
+#return:active {
+    background-image: url('../textures/main_active.png');
 }
 
 /* --------------------------------- */

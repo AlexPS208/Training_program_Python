@@ -179,10 +179,42 @@ nav {
 nav>.nav_dop {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
 
 nav>.nav_dop>* {
 	margin: 6%;
+}
+
+#tps,
+#health,
+#plusz {
+	display: block;
+	height: 200px;
+
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#tps {
+	transition: all .2s ease-in-out;
+	margin: 0 22.388px;
+	width: 155.224px;
+	background-image: url('../textures/main/tps_ico.png');
+}
+
+#health {
+	transition: all .2s ease-in-out;
+	margin: 0 -8.4px;
+	width: 216.8px;
+	background-image: url('../textures/main/health_ico.png');
+}
+
+#plusz {
+	transition: all .2s ease-in-out;
+	margin: 0 -38.136px;
+	width: 276.272px;
+	background-image: url('../textures/main/Plushka_ico.png');
 }
 
 nav>.nav_menu {
@@ -194,6 +226,49 @@ nav>.nav_menu>* {
 	margin: 1% 0 5%;
 }
 
+#menu {
+	display: block;
+	width: 295.66px;
+	height: 100px;
+
+	background-image: url('../textures/main/menu_ico.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	transition: all .2s ease-in-out;
+}
+
+/*========================================*/
+/*========================================*/
+
+#tps:hover {
+	transition: all .1s ease-in-out;
+	background-image: url(../textures/main/tps_hover.png);
+}
+
+#health:hover {
+	transition: all .1s ease-in-out;
+	background-image: url('../textures/main/Health_hover.png');
+}
+
+#plusz:hover {
+	transition: all .1s ease-in-out;
+	background-image: url('../textures/main/Plushka_hover.png');
+}
+
+#menu:hover {
+	transition: all .1s ease-in-out;
+	width: 287.4345px;
+	background-image: url('../textures/main/menu_hover.png');
+}
+
+#menu:active {
+	width: 313.525px;
+	background-image: url('../textures/main/menu_active.png');
+	transition-delay: .1s;
+}
+
+/*========================================*/
 /*========================================*/
 
 footer {

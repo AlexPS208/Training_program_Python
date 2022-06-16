@@ -23,7 +23,7 @@ body {
 /* --------------------------------- */
 
 .button {
-    margin: -7.113% 12.513% 0 73.874%;
+    margin: -7.113% 12.513% 7% 73.874%;
     display: block;
     background-image: url('../textures/back_ico.png');
     background-size: contain;

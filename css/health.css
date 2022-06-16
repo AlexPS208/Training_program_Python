@@ -39,12 +39,26 @@ hr {
 /* --------------------------------- */
 
 .button {
+    display: block;
+    width: 152px;
+    height: 48px;
+
+    background-image: url('../textures/main_ico.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
     margin: 1.113% 12.513% 0 73.874%; 
 }
 
-.button>a>img {
-    width: 59.1721%;
+.button:hover {
+    background-image: url('../textures/main_hover.png');
 }
+
+.button:active {
+    background-image: url('../textures/main_active.png');
+}
+
+/* --------------------------------- */
 
 .disease {
     margin: -5% 16.387% 12.931% 16.387%;

@@ -22,12 +22,24 @@ body {
 
 /* --------------------------------- */
 
-.button {
-    margin: -3.113% 12.513% 0 73.874%;
+#button {
+    margin: -5.113% 12.513% 0 73.874%;
+
+    display: block;
+    width: 200px;
+    height: 64px;
+
+    background-image: url('../textures/main_ico.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.button>a>img {
-    width: 59.1721%;
+#button:hover {
+    background-image: url('../textures/main_hover.png');
+}
+
+#button:active {
+    background-image: url('../textures/main_active.png');
 }
 
 /* --------------------------------- */
