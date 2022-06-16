@@ -101,9 +101,9 @@ label:active:after {
 /*--------------------------------*/
 
 #face {
-	width: 50%;
+	width: 55%;
 	height: 100%;
-	margin-right: 5%;
+	margin-left: -5%;
 }
 
 #face>img {
