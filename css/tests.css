@@ -43,3 +43,171 @@ body {
 }
 
 /* --------------------------------- */
+
+.slider {
+    display: flex;
+
+    overflow-x: auto;
+
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-points-x: repeat(300px);
+    scroll-snap-type: mandatory;
+    margin: 7.5% 15.56% 12%;
+    width: 67.43737945%;
+}
+
+.slider>div {
+    flex-shrink: 0;
+    width: 256px;
+    height: 320px;
+    text-align: center;
+    background: #f0f0f0;
+    margin-right: 67px;
+    margin-bottom: 25px;
+    border-radius: 45px;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.slider>div>a {
+    justify-content: center;
+    align-items: center;
+    height: 33%;
+    width: 100%;
+    background-color: white;
+
+    display: none;
+
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.slider>div:hover a {
+    display: flex;
+}
+
+.slider>div>.top {
+    border-radius: 45px 45px 0 0;
+}
+
+.slider>div>.bottom {
+    border-radius: 0 0 45px 45px;
+}
+
+.slider>div>a:hover {
+    background-color: aliceblue;
+    text-decoration: solid 1px #000 underline;
+}
+
+
+.slider::-webkit-scrollbar {
+    height: 30px;
+    background-color: #f4dcf256;
+}
+
+.slider::-webkit-scrollbar-thumb {
+    background: rgba(36, 36, 36, 0.185);
+    border-radius: 5px;
+    transition: opacity 200ms;
+}
+
+.slider::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.308);
+}
+
+.slider::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+
+#d1 {
+    background-image: url(../textures/tests/Card_1.png);
+}
+
+#d2 {
+    background-image: url(../textures/tests/Card_2.png);
+}
+
+#d3 {
+    background-image: url(../textures/tests/Card_3.png);
+}
+
+#d4 {
+    background-image: url(../textures/tests/Card_5.png);
+}
+
+#d5 {
+    background-image: url(../textures/tests/Card_6.png);
+}
+
+#d6 {
+    background-image: url(../textures/tests/Card_7.png);
+}
+
+#d7 {
+    background-image: url(../textures/tests/Card_8.png);
+}
+
+#d8 {
+    background-image: url(../textures/tests/Card_9.png);
+}
+
+/* --------------------------------- */
+
+/* --------------------------------- */
+
+hr {
+    border: 1px solid #000;
+    margin-top: 4.627%;
+}
+
+footer {
+    padding: 4.885% 0 0 0;
+}
+
+footer>.info_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.9415%;
+}
+
+footer>.info_footer>span {
+    margin-bottom: 1.103%;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+footer>.info_footer>span>a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer>.name_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>.name_footer>span {
+    margin-bottom: 1.156%;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+footer>.info_footer>span>a:hover {
+    text-decoration: solid 1px underline;
+}
